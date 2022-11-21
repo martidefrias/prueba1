@@ -1,0 +1,82 @@
+*{
+    background-color: rgb(210, 206, 214);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor { margin-left: 30px; }
+
+.etapas h2{
+    color: rgb(109, 54, 161);
+    font-weight: bold;
+    font-size: 20px;
+}
+.etapas ol{
+    color: rgb(61, 61, 71);
+}
+.etapas a{
+    text-decoration: none;
+    color: rgb(61, 61, 71);
+}
+.etapas a:hover {
+    color: rgb(25, 5, 44);
+}
+
+.contenedor1 p, h3{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.contenedor1 ul{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contenedor2 p, h3 {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.contenedor2 ul{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contenedor3 p, h3 {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.contenedor4 p,h3 {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.contenedor5 p, h3{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.contenedor6 p, h3 {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.contenedor6 ul {
+    margin-left: 40px;
+}
+.contenedor7 p, h3 {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.contenedor8 p, h3 {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}

@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor {
+    overflow: hidden;
+    max-width: 1400px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.contenedor a:hover {
+    color: rgb(151, 106, 194);
+}
+header {
+    background-image: linear-gradient(to top, rgba(49, 47, 47, 0.5) 0%, 
+    rgba(117, 83, 108, 0.5) 100%), url("imagenes/cafe4.png");
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;  
+    background-size: cover; 
+   
+}
+
+header h1, h2{
+    font-weight: bold; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px;
+    padding: 50px;
+    font-size: 50px;
+    position: relative;
+    color: rgb(5, 3, 3);
+}
+.contenedor1 nav {
+    padding: 4px;
+    text-align: right;
+    padding-bottom: 5px;
+}
+.contenedor1 a { 
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.contenedor1 a:hover {
+    color: rgb(151, 106, 194);
+}
+
+
+#somos .h2 {
+    margin-bottom: 50px;
+    margin-top: 100%;
+    padding: 0%;
+}
+#somos .contenedor2 {
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+#somos .texto{
+    display: flex;
+    
+}
+#somos {
+
+     padding-top: 100px;
+     margin-top: 120px;
+     display: flex;
+     background-color: rgb(228, 233, 238);
+}
+
+#somos izquierda{
+    padding: 13px 0 0 100px;
+}
+
+#somos #derecha p {
+    font-size: 20px;
+}
+#somos #derecha h2{
+    font-size: 50px;
+}
+
+#nuestros {
+    margin-top: 100px;
+    margin-right: 100%;
+    margin-left: 0%;
+    background-color: rgb(31, 28, 28);
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.color-acento{
+    color:blueviolet;
+}
+
+#nuestros h2{
+    color: bisque;
+    font-size: 40px;
+    margin: 0;
+}
+
+#nuestros .cafe{
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 6px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 70%;
+    height: 70%;
+}
+.cafe:first-child{
+    background-image: linear-gradient(to top, rgba(36, 30, 30, 0.5) 0%, 
+    rgba(56, 38, 51, 0.5) 100%), url("imagenes/irlandes.jpg");
+}
+.cafe:nth-child(2){
+    background-image: linear-gradient(to top, rgba(36, 30, 30, 0.5) 0%, 
+    rgba(56, 38, 51, 0.5) 100%), url("imagenes/americano.jpg");
+}
+.cafe:nth-child(3){
+    background-image: linear-gradient(to top, rgba(36, 30, 30, 0.5) 0%, 
+    rgba(56, 38, 51, 0.5) 100%), url("imagenes/cappuccino.jpg");
+}
+
+#nuestros .cafes {
+    justify-content: center;
+    display: flex;
+}
+
+#nuestros p{
+    color:rgb(240, 229, 250);
+    display: block;
+    margin-bottom: 30px;
+}
+#nuestros h3{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+}
+#nuestros .cafes{
+    padding: 50px;
+}
+.contenedor1 ul{
+    list-style: none;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(167, 143, 190);
+    box-shadow: 2px 2px 10px black;
+    color: rgb(22, 18, 18);
+    background-color: rgb(187, 159, 214);
+}
+
+button:hover{
+    background-color: rgb(117, 104, 128);
+}
+
+@media (min-width: 720px) {
+    header {
+        
+        width: 100%;
+    }
+    header .contenedor{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    contenedor1 nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
+
